@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   css: ['/assets/css/main.css'],
-  ssr: false,
+  ssr: true,
   experimental: {
       payloadExtraction: false
   },
